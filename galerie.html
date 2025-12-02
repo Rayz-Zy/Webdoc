@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie - Au-delà du Réel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html"><img src="images/LogoVR.png" alt="Logo Réalité Virtuelle" class="logo-image"></a>
+                <h2 class="gradient-blue">Au-delà du Réel</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="video.html">Interview</a></li>
+                <li> <a href="galerie.html">Galerie</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="galerie-full article-page">
+        <div class="container">
+            <div class="section-header">
+                <h1 class="section-title">Galerie complète</h1>
+            </div>
+            <div class="galerie-full-grid">
+                <button class="galerie-full-item" data-src="images/casque.jpg" data-caption="Equipement casque de réalité virtuelle"><img src="images/casque.jpg" alt="casque"><span class="caption">Equipement casque de réalité virtuelle</span></button>
+                <button class="galerie-full-item" data-src="images/Fond.jpg" data-caption="Restaurant vue arène"><img src="images/Fond.jpg" alt="fond"><span class="caption">Restaurant vue arène<span></button>
+                <button class="galerie-full-item" data-src="images/IMG_20251014_145328.jpg" data-caption="Restaurant à la carte signée par le chef Poca (Guru World)"><img src="images/IMG_20251014_145328.jpg" alt="img1"><span class="caption">Restaurant à la carte signée par le chef Poca (Guru World)</span></button>
+                <button class="galerie-full-item" data-src="images/IMG_20251014_145710.jpg" data-caption="EVA Paris-Est, le QG national d'EVA en France"><img src="images/IMG_20251014_145710.jpg" alt="img5"><span class="caption">EVA Paris-Est, le QG national d'EVA en France</span></button>
+                <button class="galerie-full-item" data-src="images/IMG_20251014_145721.jpg" data-caption="Bar EVA"><img src="images/IMG_20251014_145721.jpg" alt="img6"><span class="caption">Bar EVA</span></button>
+                <button class="galerie-full-item" data-src="images/IMG_6286.jpg" data-caption="Bar EVA angle 2"><img src="images/IMG_6286.jpg" alt="img6"><span class="caption">Bar EVA angle 2</span></button>
+                <button class="galerie-full-item" data-src="images/IMG_4383.jpg" data-caption="Preparation de boisson"><img src="images/IMG_4383.jpg" alt="img6"><span class="caption">Preparation de boisson</span></button>
+                <button class="galerie-full-item" data-src="images/IMG_20251014_145742.jpg" data-caption="Entrée de la salle"><img src="images/IMG_20251014_145742.jpg" alt="img7"><span class="caption">Entrée de la salle</span></button>
+                <button class="galerie-full-item" data-src="images/image.jpg" data-caption="Une petite faim"><img src="images/image.jpg" alt="img7"><span class="caption">Une petite faim</span></button>
+                <button class="galerie-full-item" data-src="images/IMG_20251014_145835.jpg" data-caption="Coin repos"><img src="images/IMG_20251014_145835.jpg" alt="img8"><span class="caption">Coin repos</span></button>
+                <button class="galerie-full-item" data-src="images/IMG_20251014_151739.jpg" data-caption="Mini tournois d'echec"><img src="images/IMG_20251014_151739.jpg" alt="img18"><span class="caption">Mini tournois d'echec</span></button>
+                <button class="galerie-full-item" data-src="images/IMG_20251014_152705.jpg" data-caption="Arène 1 de 200m²"><img src="images/IMG_20251014_152705.jpg" alt="img21"><span class="caption">Arène 1 de 200m²</span></button>
+            </div>
+            <div style="text-align:center; margin-top:28px;">
+                <a href="index.html" class="btn-primary">Retour à l'accueil</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Au-delà du Réel. Tous droits réservés.</p>
+        </div>
+    </footer>
+    </footer>
+
+    <div id="lightbox-modal" class="lightbox-hidden" aria-hidden="true">
+        <div class="lightbox-content" role="dialog" aria-modal="true">
+            <button id="lb-close" class="lb-btn lb-close" aria-label="Fermer">×</button>
+            <button id="lb-prev" class="lb-btn lb-prev" aria-label="Précédent">‹</button>
+            <div class="lb-media">
+                <img id="lightbox-img" src="" alt="Zoom image">
+                <div id="lightbox-caption" class="lb-caption"></div>
+            </div>
+            <button id="lb-next" class="lb-btn lb-next" aria-label="Suivant">›</button>
+            
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    </body>
+</html>
